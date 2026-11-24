@@ -1,0 +1,8 @@
+Reflexión
+-Al principio, aplicar TDD en el backend puede parecer ir al revés porque te obliga a escribir la prueba antes de tener la ruta funcionando. Sin embargo, cuando lo pones en práctica te das cuenta de que cambia por completo la forma en la que programas:
+
+- Piensas antes de picar código: En lugar de lanzarte a escribir un endpoint y luego ir viendo qué devuelve, primero defines qué necesitas exactamente (qué estado HTTP debe responder, qué datos recibe y qué errores debe controlar). Eso hace que el código salga mucho más limpio y directo al grano.
+
+- Pierdes el miedo a tocar o mejorar tu código: Cuando ya tienes el test en verde, puedes reorganizar una función o simplificar una ruta con total tranquilidad. Si al limpiar el código rompes algo sin querer, Jest te avisa al segundo.
+
+- Ahorras muchísimo tiempo de pruebas manuales: En lugar de estar levantando el servidor y probando cada ruta una por una en Postman cada vez que haces un cambio, lanzas npm test y en un par de segundos sabes que toda tu API sigue funcionando como debe.
